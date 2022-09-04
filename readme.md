@@ -1,0 +1,1 @@
+https://amizarmo-fitland-app-s370kp.streamlitapp.com/
