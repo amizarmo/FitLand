@@ -1,1 +1,1 @@
-https://amizarmo-fitland-app-s370kp.streamlitapp.com/
+This project showcases exploraion of protein fitness landscapes.
