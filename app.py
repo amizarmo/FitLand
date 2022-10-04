@@ -16,7 +16,7 @@ with tab1:
     ''')
 
 with tab2:
-    df = pd.read_csv('ANN_2l_PAX3.csv', index_col=0)
+    df = pd.read_csv('data/ANN_2l_PAX3.csv', index_col=0)
     # df.melt(id_vars=['PAX3','PAX4','HOXB7','HOXC4','KLF1','GFI1B','BCL6'])
 
     tfs = st.multiselect('what TFs to show for ANN embedding',
@@ -33,7 +33,7 @@ with tab2:
     st.plotly_chart(fig)
 
 with tab3:
-    df = pd.read_csv('RNN_1l_PAX3.csv', index_col=0)
+    df = pd.read_csv('data/RNN_1l_PAX3.csv', index_col=0)
     # df.melt(id_vars=['PAX3','PAX4','HOXB7','HOXC4','KLF1','GFI1B','BCL6'])
 
     tfs = st.multiselect('what TFs to show for RNN embedding',
@@ -50,7 +50,7 @@ with tab3:
     st.plotly_chart(fig)
 
 with tab4:
-    df = pd.read_csv('CNN_3l_PAX3.csv', index_col=0)
+    df = pd.read_csv('data/CNN_3l_PAX3.csv', index_col=0)
     # df.melt(id_vars=['PAX3','PAX4','HOXB7','HOXC4','KLF1','GFI1B','BCL6'])
 
     tfs = st.multiselect('what TFs to show for CNN embedding',
